@@ -3,7 +3,6 @@
 ######################################################################
 
 TEMPLATE = app
-QT += core gui
 TARGET = gTail
 DEPENDPATH += . release
 INCLUDEPATH += .

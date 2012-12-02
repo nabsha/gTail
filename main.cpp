@@ -39,8 +39,6 @@
 ****************************************************************************/
 
 //! [0]
-#include <QApplication>
-
 #include "mainwindow.h"
 
 int main(int argc, char *argv[])
@@ -59,4 +57,3 @@ int main(int argc, char *argv[])
 #endif
     return app.exec();
 }
-//! [0]

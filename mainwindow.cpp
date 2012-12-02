@@ -39,14 +39,8 @@
 ****************************************************************************/
 
 //! [0]
-#include <QtGui>
-#include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <errno.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <sys/stat.h>
+
+
 
 #include "mainwindow.h"
 //! [0]
@@ -179,7 +173,7 @@ void MainWindow::reloadFile(){
     char buffer[BUF_SIZE];
     struct stat st;
     off_t oldSize, newSize;
-    input_fd = open (curFile.toAscii(), O_RDONLY);
+    input_fd = open (curFile.toLatin1(), O_RDONLY);
     if (input_fd == -1) {
             perror ("open");
             return;

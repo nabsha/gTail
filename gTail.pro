@@ -10,5 +10,5 @@ INCLUDEPATH += .
 
 # Input
 HEADERS += mainwindow.h
-SOURCES += main.cpp mainwindow.cpp release/qrc_application.cpp
+SOURCES += main.cpp mainwindow.cpp
 RESOURCES += application.qrc

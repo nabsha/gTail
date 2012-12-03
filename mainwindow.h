@@ -41,16 +41,16 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <qt/qapplication.h>
-#include <qt/qmainwindow.h>
-#include <qt/qplaintextedit.h>
-#include <qt/qfiledialog.h>
-#include <qt/qmessagebox.h>
-#include <qt/qaction.h>
-#include <qt/qmenubar.h>
-#include <qt/qmenu.h>
-#include <qt/qtoolbar.h>
-#include <qt/qstatusbar.h>
+#include <Qt/qapplication.h>
+#include <Qt/qmainwindow.h>
+#include <Qt/qplaintextedit.h>
+#include <Qt/qfiledialog.h>
+#include <Qt/qmessagebox.h>
+#include <Qt/qaction.h>
+#include <Qt/qmenubar.h>
+#include <Qt/qmenu.h>
+#include <Qt/qtoolbar.h>
+#include <Qt/qstatusbar.h>
 
 #include <QtGui>
 #include <stdio.h>
